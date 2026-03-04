@@ -1,0 +1,21 @@
+:root {
+  --alta: #27ae60;
+  --baixa: #e74c3c;
+  --fundo-card: #ffffff;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color:#a6eafc ;
+}
+
+.container {
+  padding: 40px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
